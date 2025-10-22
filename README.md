@@ -2,23 +2,28 @@
 
 ## Overview
 
-TODO: Write a project description
+This lab modifies an existing bouncy ball demo. The modifications include creating a new ball that is controlled by the user, that when it moves over another ball it will delete it. When a ball is deleted it will update the ball count in the upper right corner.
+
+## Controls
+
+w - moves the outlined ball up  
+s - moves the outlined ball down  
+a - moves the outlined ball left  
+d - moves the outlined ball right  
+
+
+## How to Run
+1. Clone the Repository
+2. Extract the Files if they are compressed
+3. Launch index.html with your preferred browser
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
+References:
+- JavaScript Class: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+- Document.querySelector() method reference: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+- 
 
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+Credits:
+- The Lab Guide for given code segments
+- Shane Panter for the initial bouncy ball demo
